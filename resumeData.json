@@ -1,0 +1,148 @@
+{
+  "main": {
+    "name":"Cristobal Garcia",
+    "description":"Hello! My name is Cristobal Garcia. I am a Computer Science Senior at Stanford University. This website is both a record of projects and other endeavors I have undertaken and a journal of sorts for myself. I appreciate you taking the time to surf to this corner of the web. Have spendid day!",
+    "image":"profilepic.jpg",
+    "bio":"I am a Senior at Stanford Univeristy Studying Computer Science 👨‍💻.",
+    "contactmessage":"If you would like to get in contact with me feel free to reach out to me through email!",
+    "email": "cgarciaalcazar20@gmail.com",
+    "phone": "(707)-975-5923",
+    "github":"https://github.com/cgarcia00",
+    "project":"https://github.com/cgarcia00/react-resume-website",
+    "address":{
+      "street":"450 Jane Stanford Way",
+      "city":"Stanford",
+      "state":"CA",
+      "zip": "94305"
+    },
+    "website": "https://cgarcia00.github.io/my-website/",
+    "resumedownload":"https://drive.google.com/file/d/16KFgxa3KAUK6JMvhKpMOBdHtdhuWdxQV/view?usp=drive_link",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/cgarcia0/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/cgarcia00",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here are a list of my skills and my experience rating of them.",
+    "education":[
+      {
+        "school":"Stanford University",
+        "degree":"Computer Science - AI Track",
+        "graduated":"Septemeber 2020 - June 2024",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Discover Financial Services",
+        "title":"Software Engineer Intern",
+        "years":"June 2023 - August 2023",
+        "description":"I created a Jenkins Pipeline that automatically detected and fixed tagging drift for company AWS resources by using the ServiceNow API to read in relevant data, like cost center and ownership, and deployed it to AWS using Terraform as IaC. This was part of a larger initiative to better track cloud costs at Discover and ensure that the millions of dollars of cloud spend at the company were billed correctly and belonged to the correct teams. I worked with Public Cloud Identity Team at Discover. I contributed velocity towards accomplishing the team’s goals of creating, configuring, and maintaining AWS accounts for teams at Discover in an Agile environment."
+      },
+      {
+        "company":"Edventure",
+        "title":"Student Developer",
+        "years":"January 2023 - June 2023",
+        "description":"I was on a student team that created a web app for Meta, Our Corporate Sponsor. I participated in a twenty week program at Stanford where I along with four other students worked alongside the NPE team at Meta to make a web app companion for their VR App Global History Archive where people would join live tours of famous sites on the Meta Quest hosted by professional tour guides. My team, Edventure, placed top 3 in the project fair at the end of the program. I was responsible for the fullstack development of the web app. I used Firebase, Google’s PaaS platform, to host the Edventure website that had Firebase RealtimeDB to support livestream, chat, and 3D model manipulation. I used Firebase Auth to provide Google signin and create profiles. The front-end was designed with React."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"90%"
+      },
+      {
+        "name":"C/C++",
+        "level":"80%"
+      },
+      {
+        "name":"Javascript",
+        "level":"80%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"70%"
+      },
+      {
+        "name":"HTML",
+        "level":"70%"
+      },
+      {
+        "name":"CSS",
+        "level":"60%"
+      },
+      {
+        "name":"SQL",
+        "level":"60%"
+      },
+      {
+        "name":"Java",
+        "level":"50%"
+      },
+      {
+        "name":"AWS",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Edventure Website",
+        "category":"",
+        "image":"Eddy.png",
+        "url":""
+      },
+      {
+        "title":"Image Compressor",
+        "category":"",
+        "image":"compression.png",
+        "url":""
+      },
+      {
+        "title":"A More Logical Pacman",
+        "category":"",
+        "image":"pacman.png",
+        "url":"https://cgarcia00.github.io/CS151-Pacman/"
+      },
+      {
+        "title":"VLSI Music Synthesizer",
+        "category":"I made a music synthesizer made for a VLSI chip.",
+        "image":"pynq.jpg",
+        "url":""
+      },
+      {
+        "title":"Hiding Data in Music",
+        "category":"I hid a secret message within Toto's Africa",
+        "image":"toto.png",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"RayTracing in Blender",
+        "category":"A RayTraced Scene of Kirby modeled in Blender!",
+        "image":"kirby.png",
+        "url":""
+      },
+      {
+        "title":"My First React Website",
+        "category":"(Retired) Original Personal Website made entirely from scratch with React",
+        "image":"website.png",
+        "url":"https://cgarcia00.github.io/my-website/"
+      },
+      {
+        "title":"Arduino Multiplexed Display",
+        "category":"",
+        "image":"arduino1_filter.jpg",
+        "url":""
+      }
+    ]
+  }
+}
