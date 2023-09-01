@@ -32,7 +32,12 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
+              <form
+                action="mailto:cgarciaalcazar20@gmail.com"
+                method="post"
+                id="contactForm"
+                name="contactForm"
+              >
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
@@ -43,7 +48,7 @@ class Contact extends Component {
                       defaultValue=""
                       size="35"
                       id="contactName"
-                      name="contactName"
+                      name="name"
                       onChange={this.handleChange}
                     />
                   </div>
@@ -95,7 +100,7 @@ class Contact extends Component {
                 </fieldset>
               </form>
 
-              <div id="message-warning"> Error boy</div>
+              <div id="message-warning"> Error</div>
               <div id="message-success">
                 <i className="fa fa-check"></i>Your message was sent, thank you!
                 <br />
